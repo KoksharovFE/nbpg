@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Nbpg::Application.config.secret_key_base = 'aaefbc04744dba7c4de874019460a80442ab4d1f5f0d306a6effd0be3261a3393f4e81640fff76b4ef07dee54b58b900b4afe8a9e7352ff614dbf6e3c9ca8c43'
+Nbpg::Application.config.secret_key_base = 'e71eabc6c6f2670b2d983928b10f5c4ce4362ce441a700d5bf6656dc66ba8bc1f36ad1bc0a1ee4bdf98f1a33f6756bc5b42e702fd83504e9548fe2b685c5861d'
