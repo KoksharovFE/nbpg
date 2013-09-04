@@ -33,7 +33,7 @@ Nbpg::Application.configure do
     :address => "smtp.gmail.com",
     :port => 587,
     :user_name => 'konnor2007',
-    :password => ' kjihsnraprigzecb ',
+    :password => 'ENV["GMAIL_PASSWORD"]',
     :authentication => 'plain',
     :enable_starttls_auto => true
   }
