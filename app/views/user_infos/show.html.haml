@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Country:
+  = @user_info.country
+%p
+  %b Falsename:
+  = @user_info.falsename
+%p
+  %b Ingamerole:
+  = @user_info.ingamerole
+%p
+  %b Stage:
+  = @user_info.stage
+%p
+  %b Skill:
+  = @user_info.skill
+
+= link_to 'Edit', edit_user_info_path(@user_info)
+\|
+= link_to 'Back', user_infos_path

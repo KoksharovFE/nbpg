@@ -1,0 +1,12 @@
+= simple_form_for(@user_info) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :country
+    = f.input :falsename
+    = f.input :ingamerole
+    = f.input :stage
+    = f.input :skill
+
+  .form-actions
+    = f.button :submit
